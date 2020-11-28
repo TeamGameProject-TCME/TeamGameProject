@@ -9,8 +9,8 @@ public class PlayerControler : MonoBehaviour
     Animator anim;          //애니메이터 컴포넌트
     Rigidbody rigid;        //리지드바디 컴포넌트
   
-    public Transform cameraArm;    //메인카메라 트랜스폼     
-    public Transform slimeBody;    //슬라임 트랜스폼 
+    public Transform cameraArm;    //메인카메라 트랜스폼 
+    public Transform slimeBody;    //슬라임 트랜스폼
     public Transform skillPos;
     [HideInInspector] public GameObject skillElement;
     [HideInInspector] public GameObject FireSkill;
